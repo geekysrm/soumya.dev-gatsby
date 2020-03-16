@@ -12,7 +12,7 @@ const IndexPage = () => (
         👋
       </span>
     </h1>
-    <p>
+    <p className="text-red-500">
       Welcome to my corner of the web.
       <br />
       Website is still in progress
