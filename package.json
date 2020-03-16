@@ -5,16 +5,19 @@
   "version": "0.1.0",
   "author": "Soumya Ranjan Mohanty <soumyarnm@gmail.com>",
   "dependencies": {
+    "@mdx-js/mdx": "1.5.7",
+    "@mdx-js/react": "1.5.7",
     "autoprefixer": "9.7.4",
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-manifest": "^2.2.39",
+    "gatsby-plugin-mdx": "1.0.83",
     "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-postcss": "2.1.22",
     "gatsby-plugin-purgecss": "4.0.1",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sharp": "^2.4.3",
-    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-source-filesystem": "2.1.56",
     "gatsby-transformer-sharp": "^2.3.13",
     "lodash": "4.17.15",
     "prop-types": "^15.7.2",
@@ -27,7 +30,9 @@
     "tailwindcss": "^1.2.0",
     "@fullhuman/postcss-purgecss": "^2.1.0"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
