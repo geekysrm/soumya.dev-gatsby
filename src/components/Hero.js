@@ -1,16 +1,16 @@
 import React from "react"
 
 const Hero = ({ siteTitle }) => (
-  <section className="px-4 py-6 bg-gray-200 w-full">
-    <h1 className="text-xl">
-      Hi{" "}
+  <section className="px-64 py-6 bg-gray-200 w-full">
+    <h1 className="font-semibold text-4xl">
       <span role="img" aria-label="hi">
         👋
-      </span>{" "}
+      </span>
       <br />
+      Hi, {/* <br /> */}
       I'm Soumya.
     </h1>
-    <p className="text-red-500">
+    <p className="">
       Welcome to my little corner of the web.
       <br />
       Website is still WIP
