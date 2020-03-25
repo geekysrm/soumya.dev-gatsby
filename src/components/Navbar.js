@@ -19,7 +19,7 @@ const Navbar = ({ siteTitle }) => (
       }}
     >
       <h1 className="text-xl">
-        <Link to="/" className="text-white">
+        <Link to="/" className="no-underline text-white">
           {siteTitle}
         </Link>
       </h1>

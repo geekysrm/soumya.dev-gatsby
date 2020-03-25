@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div>
       <Navbar siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.org">Gatsby</a> by @geekysrm
         </footer> */}
       </div>
-    </>
+    </div>
   )
 }
 
