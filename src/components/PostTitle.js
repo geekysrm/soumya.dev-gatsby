@@ -13,7 +13,7 @@ const PostTitle = ({ title, icon, link, readTime }) => (
       </div>
     </div>
     <div class="flex items-center">
-      <AiOutlineClockCircle /> {readTime} read
+      <AiOutlineClockCircle /> <span className="ml-1">{readTime} read</span>
     </div>
   </div>
 )

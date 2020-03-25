@@ -3,7 +3,6 @@ import React from "react"
 
 const Navbar = ({ siteTitle }) => (
   <header
-    className=""
     style={{
       // background: `#142850`,
       // background: `#192965`,
