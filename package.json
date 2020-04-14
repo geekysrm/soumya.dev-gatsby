@@ -1,7 +1,7 @@
 {
   "name": "soumya.dev",
   "private": true,
-  "description": "",
+  "description": "Website of Soumya - geekysrm",
   "version": "0.1.0",
   "author": "Soumya Ranjan Mohanty <soumyarnm@gmail.com>",
   "dependencies": {
@@ -31,7 +31,7 @@
     "tailwindcss": "^1.2.0",
     "@fullhuman/postcss-purgecss": "^2.1.0"
   },
-  "keywords": [],
+  "keywords": ["gatsby", "personal-site", "portfolio", "website"],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

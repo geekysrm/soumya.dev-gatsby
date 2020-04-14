@@ -1,7 +1,7 @@
 import React from "react"
 
 const Projects = () => (
-  <section className="px-64 py-10 bg-gray-200 w-full">
+  <section className="px-64 py-10 w-full">
     <div className="flex justify-between items-baseline">
       <h1 className="text-xl font-semibold">Open Source Projects</h1>
       <a

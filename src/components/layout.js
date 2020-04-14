@@ -15,9 +15,9 @@ import "../styles/layout.css"
 
 const Layout = ({ children }) => {
   return (
-    <div className="grid grid-cols-12">
+    <div className="grid grid-cols-12 bg-gray-200">
       <Navbar />
-      <main className="col-start-1 col-end-13 md:col-start-3 md:col-end-11">
+      <main className="px-6 col-start-1 col-end-13 md:px-0 md:col-start-3 md:col-end-11">
         {children}
       </main>
       {/* <footer>
