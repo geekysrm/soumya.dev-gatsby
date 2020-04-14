@@ -2,8 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 
 const Hero = () => (
-  <section className="px-64 py-10 bg-gray-200 w-full">
-    <div className="w-1/2">
+  <section className="bg-gray-200 w-full">
+    <div className="">
       <h1 className="font-semibold text-4xl">
         Hi, I'm Soumya
         <span role="img" aria-label="hi">

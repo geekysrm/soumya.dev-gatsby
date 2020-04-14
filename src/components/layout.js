@@ -7,7 +7,6 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Navbar from "./Navbar"
 import "normalize.css"
@@ -15,27 +14,17 @@ import "../styles/tailwind.css"
 import "../styles/layout.css"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
-    <div>
-      <Navbar siteTitle={data.site.siteMetadata.title} />
-      <div>
-        <main>{children}</main>
-        {/* <footer>
+    <div className="grid grid-cols-12">
+      <Navbar />
+      <main className="col-start-1 col-end-13 md:col-start-3 md:col-end-11">
+        {children}
+      </main>
+      {/* <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a> by @geekysrm
         </footer> */}
-      </div>
     </div>
   )
 }

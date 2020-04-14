@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-const Navbar = ({ siteTitle }) => (
+const Navbar = () => (
   <header
     style={{
       // background: `#142850`,
@@ -9,6 +9,7 @@ const Navbar = ({ siteTitle }) => (
       // choose from https://colorhunt.co/palettes/blue
       background: `#4a47a3`,
     }}
+    className="col-start-1 col-end-13"
   >
     <div
       style={{
@@ -19,7 +20,7 @@ const Navbar = ({ siteTitle }) => (
     >
       <h1 className="text-xl">
         <Link to="/" className="no-underline text-white">
-          {siteTitle}
+          SRM
         </Link>
       </h1>
     </div>
