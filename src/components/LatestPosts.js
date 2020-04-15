@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import PostTitle from "./PostTitle"
 
 const LatestPosts = () => (
-  <section className="px-64 py-10 w-full">
+  <section className="mt-5 bg-red-100">
     <div className="flex justify-between items-baseline">
       <h1 className="text-xl font-semibold">Latest Posts</h1>
       <Link to="/blog">View all</Link>
