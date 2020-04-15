@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import Navbar from "./Navbar"
+import Footer from "./Footer"
 import "normalize.css"
 import "../styles/tailwind.css"
 import "../styles/layout.css"
@@ -20,11 +21,7 @@ const Layout = ({ children }) => {
       <main className="px-6 col-start-1 col-end-13 md:px-0 md:col-start-3 md:col-end-11">
         {children}
       </main>
-      {/* <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a> by @geekysrm
-        </footer> */}
+      <Footer />
     </div>
   )
 }

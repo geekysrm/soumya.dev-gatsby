@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 const Hero = () => (
-  <section className="bg-red-100 w-full">
+  <section className="mt-5">
     <div className="">
       <h1 className="font-semibold text-4xl">
         Hi, I'm Soumya
